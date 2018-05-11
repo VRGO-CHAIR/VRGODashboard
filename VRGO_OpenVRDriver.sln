@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VRGO_OpenVRDriver", "VRGO_OpenVRDriver\VRGO_OpenVRDriver.vcxproj", "{9173BF8F-30F9-42DB-8F65-5A1ACAADFD06}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VRGO_Config", "VRGO_Config\VRGO_Config.vcxproj", "{19190F5F-0D4E-4AC3-97B5-0001F9AA6D39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{19B94AE2-3ADD-4ED2-A17F-FC957669AECB}"
+	ProjectSection(SolutionItems) = preProject
+		Common\MathTools.h = Common\MathTools.h
+		Common\openvr.h = Common\openvr.h
+		Common\SharedData.h = Common\SharedData.h
+		Common\SharedMemory.h = Common\SharedMemory.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VRGO_SDK", "VRGO_SDK\VRGO_SDK.vcxproj", "{566F6141-B356-4D5B-8B90-E52BC8A28BCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9173BF8F-30F9-42DB-8F65-5A1ACAADFD06}.Debug|x64.ActiveCfg = Debug|x64
+		{9173BF8F-30F9-42DB-8F65-5A1ACAADFD06}.Debug|x64.Build.0 = Debug|x64
+		{9173BF8F-30F9-42DB-8F65-5A1ACAADFD06}.Debug|x86.ActiveCfg = Debug|Win32
+		{9173BF8F-30F9-42DB-8F65-5A1ACAADFD06}.Debug|x86.Build.0 = Debug|Win32
+		{9173BF8F-30F9-42DB-8F65-5A1ACAADFD06}.Release|x64.ActiveCfg = Release|x64
+		{9173BF8F-30F9-42DB-8F65-5A1ACAADFD06}.Release|x64.Build.0 = Release|x64
+		{9173BF8F-30F9-42DB-8F65-5A1ACAADFD06}.Release|x86.ActiveCfg = Release|Win32
+		{9173BF8F-30F9-42DB-8F65-5A1ACAADFD06}.Release|x86.Build.0 = Release|Win32
+		{19190F5F-0D4E-4AC3-97B5-0001F9AA6D39}.Debug|x64.ActiveCfg = Debug|x64
+		{19190F5F-0D4E-4AC3-97B5-0001F9AA6D39}.Debug|x64.Build.0 = Debug|x64
+		{19190F5F-0D4E-4AC3-97B5-0001F9AA6D39}.Debug|x86.ActiveCfg = Debug|Win32
+		{19190F5F-0D4E-4AC3-97B5-0001F9AA6D39}.Debug|x86.Build.0 = Debug|Win32
+		{19190F5F-0D4E-4AC3-97B5-0001F9AA6D39}.Release|x64.ActiveCfg = Release|x64
+		{19190F5F-0D4E-4AC3-97B5-0001F9AA6D39}.Release|x64.Build.0 = Release|x64
+		{19190F5F-0D4E-4AC3-97B5-0001F9AA6D39}.Release|x86.ActiveCfg = Release|Win32
+		{19190F5F-0D4E-4AC3-97B5-0001F9AA6D39}.Release|x86.Build.0 = Release|Win32
+		{566F6141-B356-4D5B-8B90-E52BC8A28BCA}.Debug|x64.ActiveCfg = Debug|x64
+		{566F6141-B356-4D5B-8B90-E52BC8A28BCA}.Debug|x64.Build.0 = Debug|x64
+		{566F6141-B356-4D5B-8B90-E52BC8A28BCA}.Debug|x86.ActiveCfg = Debug|Win32
+		{566F6141-B356-4D5B-8B90-E52BC8A28BCA}.Debug|x86.Build.0 = Debug|Win32
+		{566F6141-B356-4D5B-8B90-E52BC8A28BCA}.Release|x64.ActiveCfg = Release|x64
+		{566F6141-B356-4D5B-8B90-E52BC8A28BCA}.Release|x64.Build.0 = Release|x64
+		{566F6141-B356-4D5B-8B90-E52BC8A28BCA}.Release|x86.ActiveCfg = Release|Win32
+		{566F6141-B356-4D5B-8B90-E52BC8A28BCA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
